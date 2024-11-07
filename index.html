@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AudioLibro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .chapter {
+            background-color: #fff;
+            border-radius: 8px;
+            margin: 20px 0;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .chapter img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .chapter h2 {
+            color: #333;
+        }
+
+        .chapter audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .chapter p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .back-to-top {
+            display: block;
+            margin: 20px 0;
+            text-align: center;
+            text-decoration: none;
+            color: #007acc;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Título de la Obra</h1>
+    <p>Autor: Nombre del Autor</p>
+</header>
+
+<main>
+    <!-- Capítulo 1 -->
+    <section class="chapter" id="chapter1">
+        <h2>Capítulo 1: Título del Capítulo</h2>
+        <img src="capitulo1.jpg" alt="Imagen Capítulo 1">
+        <audio controls>
+            <source src="capitulo1.mp3" type="audio/mpeg">
+            Tu navegador no soporta audio HTML5.
+        </audio>
+        <p>Resumen del capítulo 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+    </section>
+
+    <!-- Capítulo 2 -->
+    <section class="chapter" id="chapter2">
+        <h2>Capítulo 2: Título del Capítulo</h2>
+        <img src="capitulo2.jpg" alt="Imagen Capítulo 2">
+        <audio controls>
+            <source src="capitulo2.mp3" type="audio/mpeg">
+            Tu navegador no soporta audio HTML5.
+        </audio>
+        <p>Resumen del capítulo 2: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+    </section>
+
+    <!-- Repite la estructura para los capítulos restantes -->
+
+    <a href="#top" class="back-to-top">Volver al inicio</a>
+</main>
+
+<footer>
+    <p>&copy; 2024 - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
